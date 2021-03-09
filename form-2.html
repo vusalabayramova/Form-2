@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-2</title>
+</head>
+<style>
+    body{
+        background-color: #ccccff;
+    }
+    form{
+        background-color: #fff;
+        border-radius: 8px;
+        width: 40%;
+        margin: 50px auto;
+        padding: 20px 0;
+        height: 630px;
+    }
+    h2{
+        text-align: center;
+        background-color: rgb(229, 255, 249);
+        border-radius: 5px;
+        width: 90%;
+        padding: 10px 0;
+        margin-left: 27px;
+    }
+    .name p{
+        margin-bottom: 6px;
+    }
+    .lastname p{
+        margin-bottom: 6px;
+    }
+    .name input{
+        padding: 10px 0 10px 10px;
+        outline: none;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 5px;
+        width: 110%;
+       }
+       .lastname input{
+        padding: 10px 0 10px 10px;
+        outline: none;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 5px;
+        width: 110%;
+       }
+       .name{
+           float: left;
+           margin-left: 28px;
+          }
+       .lastname{
+           float: right;
+           margin-right: 60px;
+           }
+         
+         .password{
+           float: left;
+           margin-left: 28px;
+         }
+         .email{
+             float: right;
+             margin-right: 60px;
+         }
+         .password p, .email p{
+            margin-bottom: 6px;  
+         }
+        .password input, .email input{
+        padding: 10px 0 10px 10px;
+        outline: none;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 5px;
+        width: 110%;
+       }
+       .message{
+           margin-top: 200px;
+           margin-left: 28px;
+       }
+       .message p{
+        margin-bottom: 6px; 
+       }
+       .message textarea{
+        outline: none;
+        border: 2px solid rgb(204, 204, 204);
+        border-radius: 5px;  
+       }
+      .gender{
+        margin-left: 28px; 
+     }
+     .gender p{
+        margin-bottom: 6px;   
+     }
+     button{
+        margin-top: 25px;
+        padding: 15px 30px ;
+        border-radius: 5px;
+        width: 40%;
+        font-size: 20px;
+        background-color: rgb(229, 255, 249);
+        border: 2px solid rgb(229, 255, 249);
+        cursor: pointer;
+        outline: none;
+        
+    }
+    .button{
+        text-align: center;
+    }
+          
+
+</style>
+<body>
+    <form action="">
+    <h2>Form</h2>
+   <div id="text">
+    <div class="name">
+        <p>First Name</p>
+        <input type="text" placeholder="First Name" required>
+    </div>
+    <div class="lastname">
+        <p>Last Name</p>
+        <input type="text" placeholder="Last Name" required>
+    </div></div>
+    <div id="password-email">
+    <div class="password">
+        <p>Password</p>
+        <input type="password" placeholder="Password" required>
+    </div>
+    <div class="email">
+        <p>Email</p>
+        <input type="email" placeholder="Password" required>
+    </div></div>
+    <div class="message">
+        <p>Message</p>
+        <textarea name="message" rows="10" cols="65"></textarea>
+    </div>
+        <div class="gender">
+        <p >Gender</p>
+        <div id="radio">
+        <span>Male</span>  
+        <input type="radio" name="gender" class="radio">
+        <span style="margin-left: 10px;">Female</span>  
+        <input type="radio" name="gender" class="radio">
+        </div></div>
+        <div class="button"><button>Submit</button></div>
+    </form>
+</body>
+</html>
